@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: 'Gatsby Starter - Dimension V2',
-    author: 'Hunter Chang',
-    description: 'A Gatsby.js V2 Starter based on Dimension by HTML5 UP',
+    title: 'They Call Me Stevi',
+    author: 'Roger Campbell II',
+    description: 'From relationship advise to how to know if they are the right one. Stevi has the answers!',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
@@ -15,7 +15,7 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/images/gatsby-icon.png', // This path is relative to the root of the site.
+        icon: 'src/images/dancing-black-icon.png', // This path is relative to the root of the site.
       },
     },
     'gatsby-plugin-sass',

@@ -8,13 +8,11 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>They Call Me Stevi</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          From relationship advise to how to know if they are the right one. Stevi has the answers!
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Stay tuned for more!
         </p>
       </div>
     </div>
@@ -26,7 +24,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Who is Stevi
           </button>
         </li>
         <li>
@@ -35,7 +33,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Stevi's Books
           </button>
         </li>
         <li>
@@ -44,7 +42,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Let's Talk Love
           </button>
         </li>
         <li>
@@ -53,7 +51,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Call on ßStevi
           </button>
         </li>
       </ul>
