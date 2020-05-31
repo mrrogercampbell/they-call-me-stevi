@@ -1,8 +1,8 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import headshot from '../images/headshot/stevi_smith.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import fountainPenImg from '../images/stock/aaron-burden-y02jEX_B0O0-unsplash.jpg'
+import letsTalkLoveImage from '../images/lets_talk_love/elijah-macleod-FH-xXwv7eZg-unsplash.jpg'
 
 class Main extends React.Component {
   render() {
@@ -60,7 +60,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Books</h2>
           <span className="image main">
-            <img src={pic02} alt="" />
+            <img src={fountainPenImg} alt="" />
           </span>
           <p>
             Stevi is currently writing her first book!
@@ -79,7 +79,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Let's Talk Love</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={letsTalkLoveImage} alt="" />
           </span>
           <p>
             Could be where you give an overview about your methodology. Would be a great place to get people interested in the way you view relationships
