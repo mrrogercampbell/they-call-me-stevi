@@ -51,7 +51,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Call on ßStevi
+            Call on Stevi
           </button>
         </li>
       </ul>

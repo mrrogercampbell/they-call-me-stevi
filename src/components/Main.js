@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
+import headshot from '../images/headshot/stevi_smith.jpg'
 import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
@@ -30,7 +30,7 @@ class Main extends React.Component {
         >
           <h2 className="major">Meet Stevi</h2>
           <span className="image main">
-            <img src={pic01} alt="" />
+            <img src={headshot} alt="Picture of Stevi Smith" />
           </span>
           <p>
             This is where we could put your bio.
@@ -63,7 +63,9 @@ class Main extends React.Component {
             <img src={pic02} alt="" />
           </span>
           <p>
-            Could put content here about your various books and where to find/by them.
+            Stevi is currently writing her first book!
+            <br />
+            To stay up to date on all of Stevi's books join her mailing list <a href="#">here</a>
           </p>
           {close}
         </article>
@@ -118,28 +120,28 @@ class Main extends React.Component {
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/TheyCallMeStevi"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://www.facebook.com/stephanie.smith.16752754"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://www.instagram.com/theycallme_stevi/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="icon fa-instagram">
                 <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
-                className="icon fa-github"
-              >
-                <span className="label">GitHub</span>
               </a>
             </li>
           </ul>
