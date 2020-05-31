@@ -3,6 +3,7 @@ import React from 'react'
 import headshot from '../images/headshot/stevi_smith.jpg'
 import fountainPenImg from '../images/stock/aaron-burden-y02jEX_B0O0-unsplash.jpg'
 import letsTalkLoveImage from '../images/lets_talk_love/elijah-macleod-FH-xXwv7eZg-unsplash.jpg'
+import MediaCard from './MediaCard'
 
 class Main extends React.Component {
   render() {
@@ -81,6 +82,8 @@ class Main extends React.Component {
           <span className="image main">
             <img src={letsTalkLoveImage} alt="" />
           </span>
+
+          <MediaCard />
           <p>
             Could be where you give an overview about your methodology. Would be a great place to get people interested in the way you view relationships
           </p>
