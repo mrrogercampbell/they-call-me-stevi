@@ -30,7 +30,7 @@ const Header = props => (
         <li>
           <button
             onClick={() => {
-              props.onOpenArticle('work')
+              props.onOpenArticle('books')
             }}
           >
             Stevi's Books
