@@ -46,21 +46,22 @@ class Main extends React.Component {
             <img src={headshot} alt="Picture of Stevi Smith" />
           </span>
           <p>
-            This is where we could put your bio.
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+            Who am I?
+            <br />
+            <br />
+            They Call Me Stevi!
+           </p>
+          <p>Born and raised in the inner city of Baltimore, Maryland. I relocated to Ft. Lauderdale, Florida in 1999 to reshape my future and begin my life in the sun.</p>
+          <p>With a background in training and development, I have mentored countless individuals in professional development, interpersonal skills, and personal relationships.</p>
+
+          <p>Over the last 13 plus years, I have honed my skills as a professional trainer working with companies like American Express, Bank of America, Capital One, Connexion Point, and Georgia Pacific.</p>
+
+          <p>I am an expert in assisting people in building a positive self-loving version of themselves, which in turn allows them to transition into healthy, loving, and meaningful relationships.</p>
+          <p>My mission is to teach individuals the fundamentals of investing in themselves, their families, and potential lovers. This mission is achieved by offering personalized self-development training, seminars, and self-help books.</p>
+
+          <p>My door is always open to you, your dreams, passions, and goals. So, when you are ready to embark on your journey of building a self-loving version of yourself...</p>
+
+          <p>Just Call Stevi! ;)</p>
           {close}
         </article>
 
