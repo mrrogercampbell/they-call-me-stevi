@@ -98,7 +98,6 @@ class Main extends React.Component {
             <Card image={WomensExperienceFlyer} smallImage={WomensExperienceFlyerSmall} content={content} />
           </a>
 
-
           {close}
         </article>
 
@@ -162,7 +161,7 @@ class Main extends React.Component {
           </ul>
           {close}
         </article>
-      </div>
+      </div >
     )
   }
 }

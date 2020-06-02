@@ -19,17 +19,17 @@ import MoreVertIcon from '@material-ui/icons/MoreVert';
 
 const useStyles = makeStyles((theme) => ({
     root: {
-        maxWidth: 900,
-        // maxHeight: 2000,
+        maxWidth: 345,
+        // maxHeight: 200,
         backgroundColor: '#2A2527',
         color: 'white',
+        objectFit: 'center',
     },
-    media: {
-        height: 600,
-        width: '80%',
-        // objectFit: 'contain',
-        paddingTop: '56.25%', // 16:9
-    },
+    // media: {
+    //     height: ,
+    //     width: '80%',
+    //     paddingTop: '56.25%', // 16:9
+    // },
     // expand: {
     //     transform: 'rotate(0deg)',
     //     marginLeft: 'auto',
@@ -63,6 +63,7 @@ export default function RecipeReviewCard(props) {
                 title={props.content.title}
             />
             <CardMedia
+                component="img"
                 className={classes.media}
                 image={props.image}
                 title="Paella dish"
