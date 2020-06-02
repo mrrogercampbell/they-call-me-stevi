@@ -7,7 +7,7 @@ import CardContent from '@material-ui/core/CardContent';
 import CardMedia from '@material-ui/core/CardMedia';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
-import WomensExperienceFlyer from '../images/engagements/a_womens_experience_6_2_20_fb.jpg'
+
 
 const useStyles = makeStyles({
     root: {
@@ -18,7 +18,7 @@ const useStyles = makeStyles({
     },
 });
 
-export default function MediaCard() {
+export default function MediaCard(props) {
     const classes = useStyles();
 
     return (
@@ -26,7 +26,7 @@ export default function MediaCard() {
             <CardActionArea>
                 <CardMedia
                     className={classes.media}
-                    image={WomensExperienceFlyer}
+                    image={props.image}
                     title="Contemplative Reptile"
                 />
                 <CardContent>

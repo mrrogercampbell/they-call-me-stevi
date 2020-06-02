@@ -5,6 +5,14 @@ module.exports = {
     description: 'From relationship advise to how to know if they are the right one. Stevi has the answers!',
   },
   plugins: [
+    {
+      resolve: `gatsby-plugin-material-ui`,
+      options: {
+        stylesProvider: {
+          injectFirst: true,
+        },
+      },
+    },
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
@@ -18,6 +26,6 @@ module.exports = {
         icon: 'src/images/icons/dancing-black-icon.png', // This path is relative to the root of the site.
       },
     },
-    'gatsby-plugin-sass',
+    'gatsby-plugin-sass'
   ],
 }

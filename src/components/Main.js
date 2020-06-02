@@ -3,7 +3,9 @@ import React from 'react'
 import headshot from '../images/headshot/stevi_smith.jpg'
 import fountainPenImg from '../images/stock/aaron-burden-y02jEX_B0O0-unsplash.jpg'
 import letsTalkLoveImage from '../images/lets_talk_love/elijah-macleod-FH-xXwv7eZg-unsplash.jpg'
-import MediaCard from './MediaCard'
+import WomensExperienceFlyer from '../images/engagements/a_womens_experience_6_2_20_fb.jpg'
+import WomensExperienceFlyerSmall from '../images/engagements/a_womens_experience_6_2_20_fb_small.jpg'
+import Card from './Card'
 
 class Main extends React.Component {
   render() {
@@ -15,6 +17,14 @@ class Main extends React.Component {
         }}
       ></div>
     )
+
+    let content = {
+      title: "A Women's Experience",
+      subheader: "June 2, 2020 at 7 PM",
+      description: "This panel of women will help shed light on the many issues woman deal with in relationships, when they are unable to have an open communication with their man.",
+      details: "Sign up for this event ",
+      eventLink: "https://www.facebook.com/107556734134858/videos/2683232475286329/"
+    }
 
     return (
       <div
@@ -64,8 +74,6 @@ class Main extends React.Component {
             <img src={fountainPenImg} alt="" />
           </span>
           <p>
-            Stevi is currently writing her first book!
-            <br />
             To stay up to date on all of Stevi's books join her mailing list <a href="#">here</a>
           </p>
           {close}
@@ -83,10 +91,14 @@ class Main extends React.Component {
             <img src={letsTalkLoveImage} alt="" />
           </span>
 
-          <MediaCard />
           <p>
             Could be where you give an overview about your methodology. Would be a great place to get people interested in the way you view relationships
           </p>
+          <a href={content.eventLink} target='_blank'>
+            <Card image={WomensExperienceFlyer} smallImage={WomensExperienceFlyerSmall} content={content} />
+          </a>
+
+
           {close}
         </article>
 
